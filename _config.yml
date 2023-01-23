@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "김동하"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/businessman.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "작은 행동들이 모여서 변화를 만든다고 생각합니다. <br> 아직 부족하지만 하루하루 행동하여 발전하겠습니다. <br> 잘못된 부분이나 수정했으면 하는 부분들이 있다면 적극적으로 댓글 남겨주시면 감사하겠습니다."
   location         : "Republic of Korea"
   email            :
@@ -240,16 +240,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
